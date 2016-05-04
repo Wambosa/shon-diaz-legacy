@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<!-- Your prolly lookin at my source being like: "why didn't he just use bootstrap?"-->
+<!-- Get outta here! This is my one place i can write simple css, html and js!-->
+<!-- Go over-engineer ye own solution! Why doncha!?-->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js" integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE=" crossorigin="anonymous"></script>
+        <link 	rel="stylesheet" type="text/css" href="css/site.css"/>
+        <script src="js/legacy.js"></script>
+
+        <title>Shon Diaz - Projects</title>
+    </head>
+
+    <body>
+        <h1 id="navigation_title">Shon Diaz</h1>
+
+        <div id="header">
+            <img id="right_logo" src="img/teem_ultimate_symbol_gray.png" alt="Title Image">
+            <img id="left_logo" src="img/teem_ultimate_symbol_gray.png" alt="Title Image">
+
+            <ol id="navigation_list">
+                <li id="button_resume" class="button" onmouseover="resume();" onmousedown="SyntheticLink('resume.html');"><a href="resume.html">Resume</a></li>
+                <li id="button_projects" class="button" onmouseover="project();" onmousedown="SyntheticLink('projects.html');"><a href="projects.html">Projects</a></li>
+                <li id="button_about" class="button" onmouseover="about();" onmousedown="SyntheticLink('about.html');"><a href="about.html">About</a></li>
+            </ol>
+        </div>
+
+        <img id="animated_menu_mini" class="spinner" src="img/Blaze.gif">
+
+        <div class="center_parent">
+            <div class="tile_grid">
+
+                <div class="two_third_tile">
+
+                    <img src="img/a_tile_portfolio.png">
+
+                    <div>
+                        <div>
+                            <h2>Portfolio:</h2>
+                            <p>This website and more</p>
+                            <p>
+                                The portfolio project is my effort to document all the different things that I do and learn so that I can prove my legitimacy to potential partners. Some of the projects tiles have a YouTube video, information page, tutorial of how I built it, or even a demo. It will take a considerable amount of time for me to add in the aforementioned extras. I will at least complete this page even if I don't have my presentation of a project ready. Eventually I'll be able to look back on everything and be glad of the time and efforts I put into my life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_third_tile">
+
+                    <img src="img/a_tile_dbzf.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=Y-IFCmKoFHI">
+                                <h2>Dragon Ball F:</h2>
+                                <p>Dragon Ball Z Fan Game</p>
+                                <p>
+                                    My very first dive into the game making world was this project. I spent the year of 2006 spare time building over and over again to get the gameplay/look I wanted using a tool called RPG Maker XP.
+                                    Eventually I accomplished what I desired. The work was long and tedious. In this project I learned how a game is put together and inadvertently how software development works.
+                                    I decided to move onto something else since Just about everything was hard coded and getting it out of Ruby in RPG Maker was starting over.
+                                <p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_third_tile">
+
+                    <img src="img/a_tile_pkmnblack.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=i4-swWsBCVA">
+                                <h2>Pokemon Black:</h2>
+                                <p>Pokemon Fan Game</p>
+                                <p>
+                                    For those of you who know where "The Nugget Bridge" is in the original Pokemon game; this is my dream coming true. You are a new member of team rocket. A criminal organization bent on world domination and gaining power by exploiting Pokemon! There is a 26 minute YouTube video of this game. Click on me!
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="two_third_tile">
+
+                    <img src="img/a_tile_cyclops.png">
+
+                    <div>
+                        <div>
+                            <h2>cyclOPS:</h2>
+                            <p>Continuous Monitoring Solution</p>
+                            <p>The need for this tool arose when I was tasked to co manage over 50 servers with many many services around the clock. I needed something to alert me when things take a turn for the worse. In some cases, I need them corrected automagically without my intervention.</p>
+                            <p>It performs regular CLI commands over SSH 2.0 to gather any sort of information you would gather whilst troubleshooting a specific system or service and stores the data in a custom MySQL database.</p>
+                            <p>The project took me about 5 months of spare time equating to roughly 60 hours of database design, research, coding and glorious testing/debugging.</p>
+                            <p>Cyclops can cross over windows, apple and Linux platforms easily. The amount of sanity this tool has saved me in the workplace has been invaluable. It actually took over part of my job in its final state.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="two_third_tile">
+
+                    <img src="img/a_tile_arbor.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="https://github.com/Wambosa/regal_arbor">
+                                <h2>Regal Arbor:</h2>
+                                <p>A Legendary Tale</p>
+                                <p>
+                                    Regal Arbor is a globally collaborative project between about 10 individuals.
+                                    I lead the programming of the game. It is a retro looking hack and slash RPG with a few twists.
+                                    The C# Unity3D code is pretty insane since its my free for all playground. GoLang gets some spotlight here in the form of batch categorize, preorder and reference n hundred images.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_third_tile">
+
+                    <img src="img/a_tile_electric.png">
+
+                    <div>
+                        <div>
+                            <h2>Utility Soldering Station:</h2>
+                            <p>Electricity!</p>
+                            <p>
+                                Through my journey of learning about electricity in physics and magnetism; I have designed a soldering station that doubles as a third hand and storage unit among other things like detecting energy using heat couples. This is one cool project that I enjoy away from a computer screen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_third_tile">
+
+                    <img src="img/a_tile_policy.png">
+
+                    <div>
+                        <div>
+                            <h2>Security Policy:</h2>
+                            <p>PCI + HIPAA Compliance</p>
+                            <p>
+                                I went above and beyond my regular system admin duties by writing an entire policy for a company because they did not have one nor anyone on staff who understood both business concepts and technology concepts. I take great pride in the completion of this task since I went in with no fore knowledge on being audited. A plan was also designed by me to take us through the journey that is compliance. The company succeeded with my help. That was pretty sweet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="two_third_tile">
+
+                    <img src="img/a_tile_migration.png">
+
+                    <div>
+                        <div>
+                            <h2>Migration:</h2>
+                            <p>Exchange to Google</p>
+                            <p>
+                                The task was to migrate 700 users from Exchange 2007 to Google Apps, design a training course to teach people about Google apps, then travel around to all the locations and present. I had creative freedom here and got to make the course simple, to the point and interactive. The actual migration of the data was made quite simple by Google apps utilities. The data was moved in phases so that our department was not overwhelmed. The entire project took about 45 days.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_math.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="notebook/precal_equation_solving.html">
+                                <h2>Mathematics:</h2>
+                                <p>Discovering Truth</p>
+                                <p>
+                                    "If I were again beginning my studies, I would follow the advice of Plato and start with mathematics."
+                                    ~Galileo Galilei
+
+                                    Since we stand on the shoulders of past giants, we ought to heed thier advice. I have thus started over my study of the engineering arts.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_geometry.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="notebook/geometry.html">
+                                <h2>matplotlib:</h2>
+                                <p>Terminal Drawing</p>
+                                <p>
+                                    All of mathematics has roots in geometry and can be represented in some physical form
+                                    By using these techniques to increase understanding of an abstract entity, I can better reduce expensive algorithms into more efficient code.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<!-- Still looking at my source... Who do you think you are? -->
+        <div class="center_parent">
+            <div class="tile_grid">
+                <div class="story_section">
+                    <h2>Meah Mentions</h2>
+                    <p>
+                        Once upon a time, I thought these accomplishments were super cool, hot estus fresh off the bonfire. Now I think they are meah...
+                        These are like the Vanilla Ice one time music hit, but only a dozens cared instead of millions.
+                        They cannot be forgotten though! I must teach my son hte way of the polyglot.
+                    </p>
+                    <!-- Don't be like: "well i think all your stuff is meah." cuz thats pure cruelty. I bet you kick dogs and eat kittens for dessert. -->
+                </div>
+            </div>
+        </div>
+        <div class="center_parent">
+            <div class="tile_grid">
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_secretsanta.png">
+
+                    <div>
+                        <div>
+                            <h2>Secret Santa:</h2>
+                            <p>Holiday Cheer</p>
+                            <p>
+                                Have you ever just wanted to scramble a list and <strong>NOT</strong> know the outcome?
+                                Takes in a list of people,
+                                runs light validation then randomizes them up and sends out an email telling you who you should buy a gift for.
+                                This was used for 2012-2015 secret santa. Honestly there is a better app on the app store now.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_xmpie.png">
+
+                    <div>
+                        <div>
+                            <h2>Automated Tester:</h2>
+                            <p>Quality Assurance</p>
+                            <p>
+                                Automated End-to-End QA is a difficult thing to achieve.
+                                This tool does not do everything for the QA department.
+                                It did save us <strike>immeasurable</strike> measurable hours by continuously running tests previously done by hand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_time.png">
+
+                    <div>
+                        <div>
+                            <h2>Temporal Reflection:</h2>
+                            <p>Self Study</p>
+                            <p>
+                                This is a small tool built to track what I am doing with my time.
+                                Ability and experience do not necessarily equate.
+                                Experience can be raised merely by spending time on a subject, but skill comes through effort and intention.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_dbmagic.png">
+
+                    <div>
+                        <div>
+                            <h2>Database Magic:</h2>
+                            <p>Bridge from mortality to immortality</p>
+                            <p>
+                                Database magic takes an excel file, converts it into a MySQL or sqlite and back again.
+                                It allows for quick schema restructuring by mere peasant mortals who do not know what a database is.
+                                This frees up my time to work on my people skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_vent.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="http://104.219.52.168/vent/">
+                                <h2>Vent:</h2>
+                                <p>Enabler of lamenting</p>
+                                <p>
+                                    Vent is a simple anonymous messaging system to other random lamenting people in the world.
+                                    This is a small full stack teaching project I use to teach willing newbies.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_chemistry.png">
+
+                    <div>
+                        <div>
+                            <h2>Chemistry Simulation:</h2>
+                            <p><strike>The most accurate physics engine ever</strike></p>
+                            <p>
+                                My regurgitation of what I have been learning in chemistry/physics self study.
+                                It crashes most of the time. I tried to make the physics just like real life.
+                                Yeah... Fake video game troll physics is better for performance btw...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_kahn.png">
+
+                    <div>
+                        <div>
+                            <a target="_blank" href="notebook/worksheet.html">
+                                <h2>Khan Academy:</h2>
+                                <p>Mental Expansion</p>
+                                <p>
+                                    Education is near and dear to my heart.
+                                    I've always liked the idea of "gamified" learning. It works for a mind like mine.
+                                    I basically take a module from khan and write code to solve the problems for fun
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_graphite.png">
+
+                    <div>
+                        <div>
+                            <h2>Graphite-Cacti Solution:</h2>
+                            <p>SNMP Tool</p>
+                            <p>
+                                A challenge from my boss and technology mentor. He asked me to set up a round robin database and use it to store our network activity. After about 50 hours and 2 weeks, we had a new NOC screen to put up :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_nunchaku.png">
+
+                    <div>
+                        <div>
+                            <h2>Nunchaku:</h2>
+                            <p>Paying Homage</p>
+                            <p>
+                                Bruce Lee made nunchakus famous for awhile before my time. I started years ago and never put them down. This is a skill that I develop away from the computer screen helping to keep me in better physical and mental health (as long as I don't strike myself :p).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_staff.png">
+
+                    <div>
+                        <div>
+                            <h2>Section Staff:</h2>
+                            <p>Self Challenge</p>
+                            <p>
+                                After practicing nunchakus for many years, I decided to try something else more challenging. A 3 section staff is typically a bow staff broken into 3 pieces. It is a versatile object with many possible angles. I built a heavy section staff myself out of wood and practice with it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_exchange.png">
+
+                    <div>
+                        <div>
+                            <h2>Exchange 2010:</h2>
+                            <p>Postfix to Exchange</p>
+                            <p>
+                                Anyone who has dealt with exchange alone knows my woes here. I had a tight 15 day deadline and was able to come through in an alien environment. I learned postfix and how to set up SpamAssassin to work with exchange as well.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_pkmntactics.png">
+
+                    <div>
+                        <div>
+                            <h2>Pokemon Tactics:</h2>
+                            <p>Pokemon Fan Game</p>
+                            <p>
+                                Advanced Wars meets Pokemon. I learned C# and javascript with this game. This was before I knew anything about databases so all the data was stored in XML or csv files then parsed out in game during the loading process. There are several custom classes built by me reinventing the wheel :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="center_parent">
+            <div class="tile_grid">
+                <div class="story_section">
+                    <h2><strike>Friend</strike> Fail Zone</h2>
+                    <p>
+                        Far better is it to dare mighty things, to win glorious triumphs, even though checkered by failure... than to rank with those poor spirits who neither enjoy nor suffer much, because they live in a gray twilight that knows not victory nor defeat.<br>
+                        ~Theodore Roosevelt<br>
+                        <br>
+                        Being in "the friend zone" ain't fun. Yet it teaches us a few things going forward. Just like failed projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="center_parent">
+            <div class="tile_grid">
+                <div class="two_third_tile">
+                    <img src="img/a_tile_dark.png">
+                    <div>
+                        <div>
+                            <h2>Dark Solution:</h2>
+                            <p>MMO RPG</p>
+                            <p>
+                                This was one of my first collaborative game making attempts. We had a team of about 20 people all over the world working together building the game. I myself designed a large amount of the back end systems and organized a small group of 3-4 programmers. I have a <strong>TON</strong> of tool concepts that I carried over into my other development projects after this one fell apart. Everything was rolling fine for about 6 months, but then the holiday season came in and people moved, got lazy, died? All of a sudden we had a very large project and no project manager. I learned that a project manager is important because she/he acts like a powerful emotional adhesive when everyone else has their head down working. I heard about migrating geese and how one of their number flies behind the group and yaps at them. We humans are not so different and need encouragement to move with greater vigor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one_third_tile">
+
+                    <img src="img/a_tile_cissp.png">
+
+                    <div>
+                        <div>
+                            <h2>C.I.S.S.P.:</h2>
+                            <p>Coveted Certification</p>
+                            <p>
+                                Certified Information Systems Security Professional. I spent roughly a month of reading various documents such as PCI DSS version 2/3, N.I.S.Ts Special Publication 800-66, and many others whilst writting a security policy from scratch for a company. The first goal was to survive a risk assessment from two auditors and a audit from one additional auditor. I succeeded in that with no experience. So I thought to myself, why not go one step further and get certified? I admit that the dry reading and dull life was not appealing. It didn't take much to discourage that idea from me and move onto something else more exciting.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_fourth_tile">
+
+                    <img src="img/a_tile_perpetual.png">
+
+                    <div>
+                        <div>
+                            <h2>Perpetual Motion:</h2>
+                            <p>Free Energy?!</p>
+                            <p>
+                                I made two little magnetic turbines. You cannot create energy without work. When a perpetual motion device takes on a load, then it loses the energy it needs to continue its perpetual motion. I think this will only work to reduce work required for continuance at best.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_fourth_tile">
+                    <img src="img/a_tile_forum.png">
+
+                    <div>
+                        <div>
+                            <h2>Internal Forums:</h2>
+                            <p>Superior Orginization</p>
+                            <p>
+                                The goal was to utilize an open source forum software for a company that needed better communication and orginization. Time was my enemy here. The project never got any real traction. I learned that ideas should be prototyped before delving too deep.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="one_fourth_tile">
+                    <img src="img/a_tile_anthony.png">
+
+                    <div>
+                        <div>
+                            <h2>Anthonys' Assets:</h2>
+                            <p>Superior Organization</p>
+                            <p>
+                                Named after myself and my boss since we had the same name. It was an asset management solution essentially storing data in MySQL tables. It failed because I never built a front end interface for mere mortals to use. Thus making the tool too complex to succeed, no matter how useful it was to me.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="one_fourth_tile">
+                    <img src="img/a_tile_perl.png">
+
+                    <div>
+                        <div>
+                            <h2>Use Perl:</h2>
+                            <p>Paying Homage</p>
+                            <p>
+                                I just wanted to use it for something simple. Listen to a socket and parse out the retrieved data. I ended up hating the syntax for dealing with strings after 7 hours. I used python instead and just finished the mission.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="footer">
+            <img id="footer_image" src="img/teem_ultimate_symbol_gray.png" alt="footer_image">
+            <p> this website was built with plain ole txt files :) </p>
+        </div>
+    </body>
+</html>
