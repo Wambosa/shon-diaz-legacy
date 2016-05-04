@@ -1,3 +1,5 @@
+//todo: remove jquery. this is too simple for it.
+
 $(function() {
 
     var $Image=$(".spinner"), degree=0, timer;

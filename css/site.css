@@ -1,3 +1,9 @@
+/*
+    I felt the need to create my own css without the help of bootstrap.
+    This way i can feel the pain with UX designers.
+    You will never catch me authoring css from scratch again.
+*/
+
 body {
     color 					: #FFFFFF;/*#15abc3;*/
     background-color		: #3d3c3a;
