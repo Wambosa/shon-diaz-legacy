@@ -1,38 +1,41 @@
-//todo: remove jquery. this is too simple for it.
+function main(){
+    update(getGlobe());
+}
 
-$(function() {
+var getGlobe = function(){
+    //todo: document.getElementById()
+    return document.getElementsByClassName("spinner")[0];
+};
 
-    var $Image=$(".spinner"), degree=0, timer;
-    var Speed=60; //speed gets faster with lower numbers
-    var Degree=0;
+var rotate = function(obj){
+    if(obj.degree == 360 || !obj.degree)
+        obj.degree = 0;
 
-    function rotate() {
-        if(Degree===360){Degree=0;}
+    obj.style.transform = "rotate("+(obj.degree++)+"deg)";
+};
 
-        $Image.css({ transform: 'rotate(' + Degree + 'deg)'});
-
-        timer = setTimeout(function(){
-            ++Degree;
-            rotate();
-        }, Speed);
-    }
-
-    rotate();
-});
+var update = function(spinner){
+    setTimeout(function(){
+        rotate(spinner);
+        update(spinner);
+    }, 50);
+};
 
 function resume(){
-    $("#animated_menu").attr('src','img/Sonic.gif');
+    getGlobe().src = 'img/Sonic.gif';
 }
 
 function project(){
-    $("#animated_menu").attr('src','img/Blaze.gif');
+    getGlobe().src = 'img/Blaze.gif';
 }
 
 function about(){
-    $("#animated_menu").attr('src','img/CentralDistrict.gif');
+    getGlobe().src = 'img/CentralDistrict.gif';
 }
 
 //note: workaround for some mobile devices (particularly IE mobile)
 function SyntheticLink(url){
     window.location.href = url;
 }
+
+main();
