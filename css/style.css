@@ -338,10 +338,6 @@ p {
 				}
 			
 				.portfolio article:hover .bw {
-					mask-image: url('../img/portfolio-mask.png');
-					-webkit-mask-image: url('../img/portfolio-mask.png');
-					-o-mask-image: url('../img/portfolio-mask.png');
-					-moz-mask-image: url('../img/portfolio-mask.png');
 					-webkit-filter: grayscale(0%);
 					-webkit-transition: .5s ease-in-out;
 					-moz-filter: grayscale(0%);
@@ -351,10 +347,6 @@ p {
 				}
 
 				.portfolio article .bw { 
-					mask-image: url('../img/portfolio-mask.png');
-					-webkit-mask-image: url('../img/portfolio-mask.png');
-					-o-mask-image: url('../img/portfolio-mask.png');
-					-moz-mask-image: url('../img/portfolio-mask.png');
 					-webkit-filter: grayscale(100%);
 					-webkit-transition: .5s ease-in-out;
 					-moz-filter: grayscale(100%);
@@ -1015,6 +1007,7 @@ only screen and (max--moz-device-pixel-ratio: 2) {
 
 	#container > header hgroup:before {
 		background: #d9593d url('../img/teem_ultimate_symbol_gray.png') center no-repeat;
+			opacity: 0;
 			content: '';
 			height: 100px;
 			padding: 5px;
