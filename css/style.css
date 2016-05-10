@@ -1014,8 +1014,14 @@ body > footer {
 only screen and (max--moz-device-pixel-ratio: 2) {
 
 	#container > header hgroup:before {
-		background: #d9593d url('../img/WorldCity.png') center 30px no-repeat;
-		background-size: 82px 37px;
+		background: #d9593d url('../img/teem_ultimate_symbol_gray.png') center no-repeat;
+			content: '';
+			height: 100px;
+			padding: 5px;
+			position: absolute;
+				left: 0;
+				top: -25px;
+			width: 100px;
 	}
 }
 
