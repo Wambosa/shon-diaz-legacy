@@ -1,9 +1,6 @@
-/* HTML5 ✰ Boilerplate
- * ==|== normalize ==========================================================
- */
+/* HTML5 ✰ Boilerplate */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
@@ -54,22 +51,11 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
-table { border-collapse: collapse; border-spacing: 0; }
-td { vertical-align: top; }
 
-
-/* ==|== primary styles ===================================================== */
+/* primary styles =====================================================*/
 
 
 /* Structure - sticky footer, page width */
-#container {
-}
-
-.ie6 #container, .ie8 #container{ display:table; height:100% }
-#container > header{
-  padding: 0;
-}
-
 #main {
   overflow:auto;
   padding: 0;
@@ -78,8 +64,6 @@ td { vertical-align: top; }
 body > footer {
   padding: 0 10px;
   position: relative;
-  //margin-top: -150px;
-  //height: 150px;
   clear:both;
 }
 
@@ -141,14 +125,7 @@ p {
 }
 
 
-/* Body Container */
-
-#container {
-}
-
-
 /* Header */
-
 #container > header {
 	background: #272123 url('../img/pattern-hash.png');
 	border-bottom: 5px solid #d0d0d0;
@@ -220,7 +197,6 @@ p {
 
 
 /* Main */
-
 #container > .main {
 	background: #f2f2f2 url('../img/pattern-noise.png');
 	padding: 125px 0 30px;
@@ -241,7 +217,6 @@ p {
 		}
 
 	/* Portfolio */
-
 	.portfolio {
 		float: left;
 		position: relative;
@@ -355,155 +330,6 @@ p {
 					-o-transition: .5s ease-in-out;		
 				}
 
-
-	.portfolio-single {
-		float: left;
-		padding-bottom: 30px;
-		position: relative;
-		width: 100%;
-	}
-
-		.portfolio-single .showcase {
-			float: left;
-			width: 630px;
-		}
-
-			.portfolio-single .showcase p {
-				margin-bottom: 20px;
-			}
-
-				.portfolio-single .showcase p:last-child {
-					margin: 0;
-				}
-
-			.portfolio-single .showcase img {
-				background: #d0d0d0;
-				border: 1px solid #b9b9b9;
-				padding: 9px;
-			}
-
-		.portfolio-single .summary {
-			float: right;
-			width: 300px;
-		}
-
-			.portfolio-single .summary header {
-				margin-bottom: 20px;
-			}
-
-				.portfolio-single .summary header h1 {
-					color: #443a3d;
-					line-height: 32px;
-				}
-
-				.portfolio-single .summary header p {
-					font-size: 16px;
-					font-style: italic;
-					line-height: 22px;
-					margin: 0;
-				}
-			
-			.portfolio-single .summary .portfolio-description {
-				color: #443a3d;
-				font-size: 13px;
-				line-height: 20px;
-				margin-bottom: 20px;
-			}
-
-				.portfolio-single .summary .portfolio-description h2 {
-					font: 22px/22px 'LeagueGothicRegular', helvetica, arial, sans-serif;
-					margin-bottom: 20px;
-				}
-
-				.portfolio-single .summary .portfolio-description p {
-					font-size: 13px;
-					line-height: 20px;
-					margin-bottom: 20px;
-				}
-
-				.portfolio-single .summary .portfolio-description ul {
-					margin-bottom: 20px;
-					margin-left: 25px;
-					margin-top: -10px;
-					padding: 0;
-				}
-
-
-
-						#respond form p input[type=submit] {
-						}
-
-							#respond form p input[type=submit]:hover {
-							}				
-
-			.portfolio-single .summary .portfolio-url a {
-				background: #d9593d;
-				border: 0;
-				border-radius: 5px;
-				color: #fff;
-				font: 18px/18px 'LeagueGothicRegular', helvetica, arial, sans-serif;
-				letter-spacing: 1px;
-				padding: 7px 10px;
-				text-transform: uppercase;
-				transition: all 0.2s ease-in;  
-					-webkit-transition: all 0.1s ease-in;  
-					-moz-transition: all 0.1s ease-in;  
-					-o-transition: all 0.1s ease-in; 
-				width: auto;
-				/*
-				background: #443a3e;
-				border-radius: 39px;
-				display: block;
-				float: left;
-				padding: 5px;
-				transition: all 0.2s ease-in;  
-					-webkit-transition: all 0.1s ease-in;  
-					-moz-transition: all 0.1s ease-in;  
-					-o-transition: all 0.1s ease-in; 
-				width: 68px;
-					height: 68px;
-				*/
-			}
-
-				.portfolio-single .summary .portfolio-url a span {
-					/*
-					background-color: #67585e;
-					background-position: 0 0;
-					background-repeat: no-repeat;
-					border: 1px solid #272123;
-					border-radius: 34px;
-					color: #cec8cb;
-					display: block;
-					float: left;
-					font: 16px/16px 'LeagueGothicRegular', helvetica, arial, sans-serif;
-					letter-spacing: 1px;
-					padding-top: 14px;
-					text-align: center;
-					text-transform: uppercase;
-					text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
-					transition: background-color 0.1s ease-in, border 0.1s ease-in;
-						-webkit-transition: background-color 0.1s ease-in, border 0.1s ease-in;
-						-moz-transition: background-color 0.1s ease-in, border 0.1s ease-in;
-						-o-transition: background-color 0.1s ease-in, border 0.1s ease-in;
-					width: 66px;
-						height: 52px;
-					*/
-				}
-				
-				.portfolio-single .summary .portfolio-url a:hover {
-					background: #67585e;
-				}
-				
-					.portfolio-single .summary .portfolio-url a:hover span {
-						/*
-						background-color: #c7f9dc;
-						background-position: 0 -42px;
-						border: 1px solid #536c5d;
-						color: #799c87;
-						*/
-					}
-
-
 body > footer {
 	background: #272123 url('../img/pattern-hash.png');
 	border-top: 5px solid #d0d0d0;
@@ -541,6 +367,7 @@ body > footer {
 		padding: 0;
 		position: relative;
 		width: 340px;
+		margin-bottom: 1em;
 	}
 
 		body > footer .hello #greeting {
@@ -572,82 +399,11 @@ body > footer {
 				width: 1px;
 			}
 	
-		body > footer .hello form {
-			
-		}
-		
-			body > footer .hello .input-row {
-				margin-bottom: 15px;
-				position: relative;
-			}
-			
-			body > footer .hello label {
-				color: #443a3d;
-				font: 14px/20px helvetica, arial, sans-serif;
-				position: absolute;
-					top: 7px;
-					left: 10px;
-			}
-			
-			body > footer .hello input[type=text],
-			body > footer .hello textarea {
-				background: #fffee9;
-				border: 0;
-				border-radius: 5px;
-				font: 14px/20px helvetica, arial, sans-serif;
-				line-height: 20px;
-				height: 20px;
-				padding: 7px 10px;
-				width: 320px;
-			}
-			
-			body > footer .hello textarea {
-				height: 80px;
-			}
-			
-			body > footer .hello .button {
-				background: #443a3e;
-				border-radius: 18px;
-				display: inline-block;
-				padding: 3px;
-				transition: all 0.2s ease-in;  
-					-webkit-transition: all 0.1s ease-in;  
-					-moz-transition: all 0.1s ease-in;  
-					-o-transition: all 0.1s ease-in; 
-			}
-			
-				body > footer .hello .button input[type=submit] {
-					background: #67585e;
-					border: 1px solid #272123;
-					border-radius: 16px;
-					color: #383033;
-					font: 20px/20px 'LeagueGothicRegular', helvetica, arial, sans-serif;
-					letter-spacing: 1px;
-					text-shadow: 0 1px 0 rgba(255,255,255,0.1);
-					text-transform: uppercase;
-					padding: 5px 20px;
-					transition: all 0.2s ease-in;  
-						-webkit-transition: all 0.1s ease-in;  
-						-moz-transition: all 0.1s ease-in;  
-						-o-transition: all 0.1s ease-in; 
-				}
-			
-				body > footer .hello .button:hover {
-					background: #7ca08b;
-				}
-				
-					body > footer .hello .button:hover input[type=submit] {
-						background: #c7f9dc;
-						border: 1px solid #536c5d;
-						color: #799c87;
-						text-shadow: 0 1px 0 rgba(255,255,255,0.8);
-					}
-	
-	body > footer .follow {
+	body > footer .demo-section {
 		width: 170px;
 	}
 		
-		body > footer .follow a {
+		body > footer .demo-section a {
 			background: #443a3e;
 			border-radius: 25px;
 			display: block;
@@ -662,7 +418,8 @@ body > footer {
 				height: 44px;
 		}
 	
-			body > footer .follow a span {
+			body > footer .demo-section a span {
+				background-size: cover;
 				background-color: #67585e;
 				background-position: 0 0;
 				background-repeat: no-repeat;
@@ -676,31 +433,29 @@ body > footer {
 					-moz-transition: background-color 0.1s ease-in, border 0.1s ease-in;
 					-o-transition: background-color 0.1s ease-in, border 0.1s ease-in;
 				width: 42px;
-					height: 42px;
+				height: 42px;
 			}
 			
-			body > footer .follow a.twitter span {
-				background-image: url('../img/icon-twitter.png');
+			body > footer .demo-section a span.github {
+				background-image: url('../img/github.png');
+			}
+			body > footer .demo-section a span.python-geometry {
+				background-image: url('../img/a_tile_geometry.png');
+			}
+			body > footer .demo-section a span.mathematics {
+				background-image: url('../img/a_tile_math.png');
 			}
 			
-			body > footer .follow a.linkedin span {
-				background-image: url('../img/icon-linkedin.png');
-			}
-			
-			body > footer .follow a:hover {
+			body > footer .demo-section a:hover {
 				background: #7ca08b;
 			}
 			
-				body > footer .follow a:hover span {
+				body > footer .demo-section a:hover span {
 						background-color: #c7f9dc;
 						background-position: 0 -42px;
 						border: 1px solid #536c5d;
 				}
 	
-
-
-
-
 
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
@@ -927,10 +682,6 @@ body > footer {
 					line-height: 20px;
 				}
 
-
-
-
-
 	.portfolio-single .showcase img {
 		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -973,7 +724,6 @@ body > footer {
 /* Portfolio with 1 column layout */
 @media only screen and (max-width: 320px) {	
 
-
 		#container > header nav {
 			position: absolute;
 				top: 19px;
@@ -986,7 +736,7 @@ body > footer {
 			
 		.portfolio article header h1 {
 			color: #443A3D;
-			font-size: 26px;
+			font-size: 18px;
 			line-height: 26px;
 			margin-bottom: 5px;
 		}
@@ -1016,25 +766,4 @@ only screen and (max--moz-device-pixel-ratio: 2) {
 				top: -25px;
 			width: 100px;
 	}
-}
-
-
-
-
-
-/* ==|== print styles ======================================================= */
- 
-@media print {
-  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
-  a, a:visited { text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
 }

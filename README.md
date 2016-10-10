@@ -1,2 +1,2 @@
 # shondiaz
-portfolio website
+portfolio website found at shondiaz.com
