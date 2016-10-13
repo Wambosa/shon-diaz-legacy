@@ -445,7 +445,9 @@ body > footer {
 			body > footer .demo-section a span.mathematics {
 				background-image: url('../img/a_tile_math.png');
 			}
-			
+			body > footer .demo-section a span.pet {
+				background-image: url('../img/pet.png');
+			}			
 			body > footer .demo-section a:hover {
 				background: #7ca08b;
 			}
