@@ -447,7 +447,10 @@ body > footer {
 			}
 			body > footer .demo-section a span.pet {
 				background-image: url('../img/pet.png');
-			}			
+			}
+			body > footer .demo-section a span.krillin {
+				background-image: url('../img/dragonball_own.png');
+			}
 			body > footer .demo-section a:hover {
 				background: #7ca08b;
 			}
