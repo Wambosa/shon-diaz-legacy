@@ -715,7 +715,7 @@ body > footer {
 /* 320px or smaller */
 /* e.g. iPhone Landscape */
 /* Portfolio with 1 column layout */
-@media only screen and (max-width: 320px) {	
+@media only screen and (max-width: 450px) {	
 
 		#container > header nav {
 			position: absolute;
