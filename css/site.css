@@ -1,0 +1,76 @@
+body {
+  background-color: #0D1018;
+  font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
+}
+
+.above {
+  z-index: 10;
+}
+
+.below {
+  z-index: -10;
+}
+
+hr {
+  display:block;
+  border:0px;
+  height:1em;
+  width:500px;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  background-image:url('../img/hr.png');
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #0088FE;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.background-theme {
+  background-color: #0088FE!important;
+}
+
+.color-rotate {
+  fill:rgb(173,112,38);
+  animation:changeColor 9s;
+  -moz-animation:changeColor 9s infinite; /* Firefox */
+  -webkit-animation:changeColor 9s infinite; /* Safari and Chrome */
+}
+
+@-moz-keyframes changeColor {
+  0%  {fill:rgb(173,112,38);}
+  33%  {fill:rgb(140,29,53);}
+  66%   {fill:rgb(50,74,98);}
+  100%  {fill:rgb(173,112,38);}
+}
+
+@-webkit-keyframes changeColor {
+  0%  {fill:rgb(173,112,38);}
+  33%  {fill:rgb(140,29,53);}
+  66%   {fill:rgb(50,74,98);}
+  100%  {fill:rgb(173,112,38);}
+}
+
+#voyager-svg path {
+  fill: none;
+  stroke: '#0088FE';
+  stroke-width: 30;
+  stroke-dasharray: 5000;
+  animation: buildVoyager 7s linear alternate infinite;
+  -moz-animation:buildVoyager 7s linear alternate infinite; /* Firefox */
+  -webkit-animation:buildVoyager 7s linear alternate infinite; /* Safari and Chrome */
+}
+
+@keyframes buildVoyager {
+  0% {stroke-dashoffset: 5000;}
+  25% {stroke-dashoffset: 10000;}
+  75% {stroke-dashoffset: 0;}
+  100% {stroke-dashoffset: 0;}
+}
