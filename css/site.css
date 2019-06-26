@@ -3,14 +3,6 @@ body {
   font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
 }
 
-.above {
-  z-index: 10;
-}
-
-.below {
-  z-index: -10;
-}
-
 hr {
   display:block;
   border:0px;
@@ -33,15 +25,59 @@ a:hover {
   text-decoration: none;
 }
 
-.background-theme {
+.above {
+  z-index: 10;
+}
+
+.below {
+  z-index: -10;
+}
+
+.thin-nav {
+  height:3vh;
+}
+
+.left-button {
+  border-top-left-radius: 3em!important;
+  border-bottom-left-radius: 3em!important;
+}
+
+.right-button {
+  border-top-right-radius: 3em!important;
+  border-bottom-right-radius: 3em!important;
+}
+
+.background-lcars {
+  background-image: url(../img/lcars.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-neon {
   background-color: #0088FE!important;
 }
 
-.color-rotate {
-  fill:rgb(173,112,38);
-  animation:changeColor 9s;
-  -moz-animation:changeColor 9s infinite; /* Firefox */
-  -webkit-animation:changeColor 9s infinite; /* Safari and Chrome */
+.background-light {
+  background-color: #3D3D3D!important;
+}
+
+.background-dark {
+  background-color: #303130!important;
+}
+
+.diagram {
+  width: 100%;
+  -webkit-transition: all .75s linear;
+  -moz-transition: all .75s linear;
+  -o-transition: all .75s linear;
+  transition: all .75s linear;
+}
+
+.svg-focus {
+  position: absolute;
+  z-index: 25;
+  width: 71vw;
 }
 
 @-moz-keyframes changeColor {
@@ -49,6 +85,13 @@ a:hover {
   33%  {fill:rgb(140,29,53);}
   66%   {fill:rgb(50,74,98);}
   100%  {fill:rgb(173,112,38);}
+}
+
+.color-rotate {
+  fill:rgb(173,112,38);
+  animation:changeColor 9s;
+  -moz-animation:changeColor 9s infinite; /* Firefox */
+  -webkit-animation:changeColor 9s infinite; /* Safari and Chrome */
 }
 
 @-webkit-keyframes changeColor {
