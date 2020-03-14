@@ -23,7 +23,7 @@ const TEXT = {
   ],
   bio: '^250\n`I am an engineer.<br>`^1000\n`I like to build cool things.<br>`^5500\n`Or break other things.`',
   hats: 'I can perform many other roles^750\n``in a pinch\,^750\n``and enjoy the learning all the while^3000.',
-  call: 'Should we build together?'
+  call: 'What could we create together?'
 }
 
 function main() {
